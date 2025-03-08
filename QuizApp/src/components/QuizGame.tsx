@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IQuestionState, questions } from "./quizQuestion";
+import { IQuestionState, questions } from "./QuizQuestion";
 
 const QuizGame = () => {
     const [quizState, setQuizState] = useState<IQuestionState>({
